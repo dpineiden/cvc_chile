@@ -1,4 +1,108 @@
 /* No files to import found in abstractions/**\/* */
+/* line 2, ../sass/base/_cvc_layout.scss */
+.l-header {
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none; }
+
+/* line 7, ../sass/base/_cvc_layout.scss */
+.l-navigation {
+  width: 66.10169%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0;
+  clear: none; }
+
+/* line 11, ../sass/base/_cvc_layout.scss */
+.l-social {
+  width: 32.20339%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none; }
+
+/* line 15, ../sass/base/_cvc_layout.scss */
+.l-header-branding {
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none; }
+
+/* line 19, ../sass/base/_cvc_layout.scss */
+.l-nav_cont {
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none; }
+
+/* line 25, ../sass/base/_cvc_layout.scss */
+.l-main {
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none; }
+
+/* line 29, ../sass/base/_cvc_layout.scss */
+.l-content {
+  width: 66.10169%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0;
+  clear: none; }
+
+/* line 33, ../sass/base/_cvc_layout.scss */
+.l-sidebar {
+  width: 32.20339%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none; }
+
+/* line 38, ../sass/base/_cvc_layout.scss */
+.l-bottom {
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none; }
+
+/* line 42, ../sass/base/_cvc_layout.scss */
+.l-bottom_first {
+  width: 32.20339%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0;
+  clear: none; }
+
+/* line 46, ../sass/base/_cvc_layout.scss */
+.l-bottom_second {
+  width: 32.20339%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 33.89831%;
+  clear: none; }
+
+/* line 50, ../sass/base/_cvc_layout.scss */
+.l-bottom_third {
+  width: 32.20339%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none; }
+
+/* line 57, ../sass/base/_cvc_layout.scss */
+.l-footer {
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none; }
+
 /* line 1, ../sass/base/_media.scss */
 img, media {
   max-width: 100%; }

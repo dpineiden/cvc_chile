@@ -1,0 +1,60 @@
+//Encabezado
+.l-header{
+	@include grid-span(12,1)
+
+}
+
+.l-navigation{
+	@include grid-span(8,1)
+
+}
+.l-social{
+	@include grid-span(4,9)
+
+}
+.l-header-branding{
+	@include grid-span(12,1)
+
+}
+.l-nav_cont{
+	@include grid-span(12,1)
+
+}
+//Content
+
+.l-main{
+	@include grid-span(12,1)
+}
+
+.l-content
+{
+	@include grid-span(8,1)
+}
+.l-sidebar
+{
+	@include grid-span(4,9)
+}
+//bottom
+.l-bottom{
+	@include grid-span(12,1)
+
+}
+.l-bottom_first{
+	@include grid-span(4,1)
+
+}
+.l-bottom_second{
+	@include grid-span(4,5)
+
+}
+.l-bottom_third{
+	@include grid-span(4,9)
+
+}
+
+//footer
+
+.l-footer{
+	@include grid-span(12,1)
+
+}
