@@ -1,5 +1,5 @@
 <div<?php print $attributes; ?>>
-  <header class="l-header" role="banner">
+  <header class="l-header--cvc" role="banner">
     <div class="l-first-header">
         <div class="l-navigation">
         <?php print render($page['navigation']); ?>
@@ -9,7 +9,7 @@
         </div>
     </div>
     <div class="l-second-header">
-        <div class="l-header-branding">
+        <div class="l-header">
           <?php if ($logo): ?>
             <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="site-branding__logo"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" /></a>
           <?php endif; ?>
@@ -30,12 +30,12 @@
   </header>
 
   <?php if (!empty($page['highlighted'])): ?>
-    <div class="l-highlighted-wrapper">
+    <div class="l-highlighted-wrapper--cvc">
       <?php print render($page['highlighted']); ?>
     </div>
   <?php endif; ?>
 
-  <div class="l-main l-constrained-content">
+  <div class="l-main--cvc l-constrained-content">
     <a id="main-content"></a>
     <?php print render($tabs); ?>
     <?php print $breadcrumb; ?>
@@ -57,7 +57,7 @@
     <div class="l-sidebar">
     <?php print render($page['sidebar']); ?>
     </div>
-    <div class="l-bottom">
+    <div class="l-bottom--cvc">
       <div class="l-bottom_first">
       <?php print render($page['bottom_first']); ?>
       </div>
@@ -70,7 +70,7 @@
     </div>
   </div>
 
-  <footer class="l-footer" role="contentinfo">
+  <footer class="l-footer--cvc" role="contentinfo">
     <?php print render($page['footer']); ?>
   </footer>
 </div>

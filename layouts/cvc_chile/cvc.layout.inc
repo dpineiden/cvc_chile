@@ -6,14 +6,15 @@ template = cvc-layout
 ; Regions
 regions[navigation]     = Navigation Principal
 regions[social]         = Social
+regions[header_branding] = Header Branding
 regions[header]         = Header
 regions[nav_cont]       = Navigation Content
 regions[highlighted]    = Highlighted
 regions[content]        = Content
-regions[sidebar]  = Sidebar
-regions[bottom_first] = First Buttom
-regions[bottom_second] = Second Buttom
-regions[bottom_third] = Third Buttom
+regions[sidebar]  		= Sidebar
+regions[bottom_first] 	= First Buttom
+regions[bottom_second] 	= Second Buttom
+regions[bottom_third] 	= Third Buttom
 regions[footer]         = Footer
 
 ; Stylesheets

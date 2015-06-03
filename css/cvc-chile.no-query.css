@@ -1,63 +1,63 @@
 /* No files to import found in abstractions/**\/* */
 /* line 2, ../sass/base/_cvc_layout.scss */
-.l-header {
+.l-header--cvc {
   width: 100%;
   float: right;
   margin-left: 0;
   margin-right: 0;
   clear: none; }
   /* line 5, ../sass/base/_cvc_layout.scss */
-  .l-header .l-first-header {
+  .l-header--cvc .l-first-header {
     width: 100%;
     float: right;
     margin-left: 0;
     margin-right: 0;
     clear: none; }
     /* line 7, ../sass/base/_cvc_layout.scss */
-    .l-header .l-first-header .l-navigation {
+    .l-header--cvc .l-first-header .l-navigation {
       width: 66.10169%;
       float: left;
       margin-right: -100%;
       margin-left: 0;
       clear: none; }
     /* line 11, ../sass/base/_cvc_layout.scss */
-    .l-header .l-first-header .l-social {
+    .l-header--cvc .l-first-header .l-social {
       width: 32.20339%;
       float: right;
       margin-left: 0;
       margin-right: 0;
       clear: none; }
   /* line 16, ../sass/base/_cvc_layout.scss */
-  .l-header .l-second-header {
+  .l-header--cvc .l-second-header {
     width: 100%;
     float: right;
     margin-left: 0;
     margin-right: 0;
     clear: none; }
     /* line 18, ../sass/base/_cvc_layout.scss */
-    .l-header .l-second-header .l-header-branding {
+    .l-header--cvc .l-second-header .l-header {
       width: 100%;
       float: right;
       margin-left: 0;
       margin-right: 0;
       clear: none; }
-  /* line 25, ../sass/base/_cvc_layout.scss */
-  .l-header .l-third-header {
+  /* line 24, ../sass/base/_cvc_layout.scss */
+  .l-header--cvc .l-third-header {
     width: 100%;
     float: right;
     margin-left: 0;
     margin-right: 0;
     clear: none; }
-    /* line 27, ../sass/base/_cvc_layout.scss */
-    .l-header .l-third-header .l-nav_cont {
+    /* line 26, ../sass/base/_cvc_layout.scss */
+    .l-header--cvc .l-third-header .l-nav_cont {
       width: 100%;
       float: right;
       margin-left: 0;
       margin-right: 0;
       clear: none; }
 
-/* line 34, ../sass/base/_cvc_layout.scss */
-.l-highlighted-wrapper {
+/* line 33, ../sass/base/_cvc_layout.scss */
+.l-highlighted-wrapper--cvc {
   margin: 0 10px;
   width: 100%;
   float: right;
@@ -65,68 +65,63 @@
   margin-right: 0;
   clear: none; }
 
-/* line 41, ../sass/base/_cvc_layout.scss */
-.l-main {
+/* line 40, ../sass/base/_cvc_layout.scss */
+.l-main--cvc {
   margin: 0 10px;
   width: 100%;
   float: right;
   margin-left: 0;
   margin-right: 0;
   clear: none; }
+  /* line 43, ../sass/base/_cvc_layout.scss */
+  .l-main--cvc .l-content {
+    margin: 0 10px;
+    width: 66.10169%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none; }
+  /* line 48, ../sass/base/_cvc_layout.scss */
+  .l-main--cvc .l-sidebar {
+    margin: 0 10px;
+    width: 32.20339%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none; }
 
-/* line 46, ../sass/base/_cvc_layout.scss */
-.l-content {
-  margin: 0 10px;
-  width: 66.10169%;
-  float: left;
-  margin-right: -100%;
-  margin-left: 0;
-  clear: none; }
-
-/* line 51, ../sass/base/_cvc_layout.scss */
-.l-sidebar {
-  margin: 0 10px;
-  width: 32.20339%;
-  float: right;
-  margin-left: 0;
-  margin-right: 0;
-  clear: none; }
-
-/* line 57, ../sass/base/_cvc_layout.scss */
-.l-bottom {
+/* line 56, ../sass/base/_cvc_layout.scss */
+.l-bottom--cvc {
   margin: 0 10px;
   width: 100%;
   float: right;
   margin-left: 0;
   margin-right: 0;
   clear: none; }
+  /* line 59, ../sass/base/_cvc_layout.scss */
+  .l-bottom--cvc .l-bottom_first {
+    width: 32.20339%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 0;
+    clear: none; }
+  /* line 63, ../sass/base/_cvc_layout.scss */
+  .l-bottom--cvc .l-bottom_second {
+    width: 32.20339%;
+    float: left;
+    margin-right: -100%;
+    margin-left: 33.89831%;
+    clear: none; }
+  /* line 67, ../sass/base/_cvc_layout.scss */
+  .l-bottom--cvc .l-bottom_third {
+    width: 32.20339%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none; }
 
-/* line 61, ../sass/base/_cvc_layout.scss */
-.l-bottom_first {
-  width: 32.20339%;
-  float: left;
-  margin-right: -100%;
-  margin-left: 0;
-  clear: none; }
-
-/* line 65, ../sass/base/_cvc_layout.scss */
-.l-bottom_second {
-  width: 32.20339%;
-  float: left;
-  margin-right: -100%;
-  margin-left: 33.89831%;
-  clear: none; }
-
-/* line 69, ../sass/base/_cvc_layout.scss */
-.l-bottom_third {
-  width: 32.20339%;
-  float: right;
-  margin-left: 0;
-  margin-right: 0;
-  clear: none; }
-
-/* line 76, ../sass/base/_cvc_layout.scss */
-.l-footer {
+/* line 75, ../sass/base/_cvc_layout.scss */
+.l-footer--cvc {
   margin: 0 10px;
   width: 100%;
   float: right;
