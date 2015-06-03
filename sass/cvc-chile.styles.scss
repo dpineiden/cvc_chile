@@ -20,3 +20,9 @@
 @import "abstractions/**/*";
 @import "base/**/*";
 @import "components/**/*";
+
+
+body{
+	margin-left: $margen-body;
+	margin-right: $margen-body;
+}

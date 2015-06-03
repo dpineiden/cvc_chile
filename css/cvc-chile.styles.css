@@ -3,4 +3,9 @@
 img, media {
   max-width: 100%; }
 
+/* line 25, ../sass/cvc-chile.styles.scss */
+body {
+  margin-left: 10%;
+  margin-right: 10%; }
+
 /*# sourceMappingURL=cvc-chile.styles.css.map */
