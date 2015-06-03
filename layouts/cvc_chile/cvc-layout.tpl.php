@@ -1,5 +1,5 @@
 <div<?php print $attributes; ?>>
-  <header class="l-header--cvc" role="banner">
+  <div class="l-header--cvc" role="banner">
     <div class="l-first-header">
         <div class="l-navigation">
         <?php print render($page['navigation']); ?>
@@ -27,7 +27,7 @@
       <?php print render($page['nav_cont']); ?>
       </div>
     </div>
-  </header>
+  </div>
 
   <?php if (!empty($page['highlighted'])): ?>
     <div class="l-highlighted-wrapper--cvc">

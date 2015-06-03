@@ -6,7 +6,7 @@ template = cvc-layout
 ; Regions
 regions[navigation]     = Navigation Principal
 regions[social]         = Social
-regions[header_branding] = Header Branding
+regions[branding] = Header Branding
 regions[header]         = Header
 regions[nav_cont]       = Navigation Content
 regions[highlighted]    = Highlighted
