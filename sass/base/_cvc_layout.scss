@@ -1,60 +1,80 @@
 //Encabezado
 .l-header{
-	@include grid-span(12,1)
+	@include grid-span(12,1);
 
+	.l-first-header{
+		@include grid-span(12,1);
+		.l-navigation{
+			@include grid-span(8,1);
+
+		}
+		.l-social{
+			@include grid-span(4,9);
+		}
+	}
+
+	.l-second-header{
+		@include grid-span(12,1);
+		.l-header-branding{
+			@include grid-span(12,1);
+
+		}
+
+	}
+
+	.l-third-header{
+		@include grid-span(12,1);
+		.l-nav_cont{
+			@include grid-span(12,1);
+		}
+	}
 }
+//Destacados
 
-.l-navigation{
-	@include grid-span(8,1)
-
-}
-.l-social{
-	@include grid-span(4,9)
-
-}
-.l-header-branding{
-	@include grid-span(12,1)
-
-}
-.l-nav_cont{
-	@include grid-span(12,1)
+.l-highlighted-wrapper{
+	margin: 0 10px;
+	@include grid-span(12,1);
 
 }
 //Content
 
 .l-main{
-	@include grid-span(12,1)
+	margin: 0 10px;
+	@include grid-span(12,1);
 }
 
 .l-content
 {
-	@include grid-span(8,1)
+	margin: 0 10px;
+	@include grid-span(8,1);
 }
 .l-sidebar
 {
-	@include grid-span(4,9)
+	margin: 0 10px;
+	@include grid-span(4,9);
 }
 //bottom
 .l-bottom{
-	@include grid-span(12,1)
-
+	margin: 0 10px;
+	@include grid-span(12,1);
 }
 .l-bottom_first{
-	@include grid-span(4,1)
+	@include grid-span(4,1);
 
 }
 .l-bottom_second{
-	@include grid-span(4,5)
+	@include grid-span(4,5);
 
 }
 .l-bottom_third{
-	@include grid-span(4,9)
+	@include grid-span(4,9);
 
 }
 
 //footer
 
 .l-footer{
-	@include grid-span(12,1)
+	margin: 0 10px;
+	@include grid-span(12,1);
 
 }

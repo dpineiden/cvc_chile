@@ -4,7 +4,7 @@ preview = preview.png
 template = cvc-layout
 
 ; Regions
-regions[navigation]     = Navigation bar
+regions[navigation]     = Navigation Principal
 regions[social]         = Social
 regions[header]         = Header
 regions[nav_cont]       = Navigation Content

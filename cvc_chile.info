@@ -22,7 +22,7 @@ scripts[] = js/cvc-chile.behaviors.js
 ; Regions
 ; ========================================
 regions[branding] = Branding
-regions[navigation] = Navigation bar
+regions[navigation] = Navigation Principal
 regions[header] = Header
 regions[hero] = Hero
 regions[social]         = Social

@@ -1,12 +1,14 @@
 <div<?php print $attributes; ?>>
   <header class="l-header" role="banner">
-    <div class="l-constrained-head">
+    <div class="l-first-header">
         <div class="l-navigation">
         <?php print render($page['navigation']); ?>
         </div>
         <div class="l-social">
         <?php print render($page['social']); ?>
         </div>
+    </div>
+    <div class="l-second-header">
         <div class="l-header-branding">
           <?php if ($logo): ?>
             <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="site-branding__logo"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" /></a>
@@ -19,6 +21,8 @@
           <?php endif; ?>
           <?php print render($page['branding']); ?>
         </div>
+    </div>
+    <div class="l-third-header">
       <div class="l-nav_cont">
       <?php print render($page['nav_cont']); ?>
       </div>
