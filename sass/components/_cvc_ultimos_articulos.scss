@@ -1,0 +1,15 @@
+.ultimos-articulos {
+    float: left;
+    position: relative;
+    width: 48%;
+	.ua-imagen img {
+	    margin: 5%;
+	    text-align: center;
+	    width: 90%;
+	}
+    .ua-resumen {
+	    margin: 10px;
+	    text-align: justify;
+	}
+
+}

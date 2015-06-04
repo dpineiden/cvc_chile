@@ -1,4 +1,5 @@
 /* No files to import found in abstractions/**\/* */
+@import url(http://fonts.googleapis.com/css?family=Bree+Serif|Francois+One|Nunito|Ubuntu+Condensed|Pacifico|Dancing+Script|Varela+Round|Patua+One|Chewy|Kaushan+Script|Righteous|Courgette);
 /* line 2, ../sass/base/_cvc_encuentro_layout.scss */
 .espacio--cvce {
   width: 100%;
@@ -252,6 +253,39 @@
 /* line 1, ../sass/base/_media.scss */
 img, media {
   max-width: 100%; }
+
+/* line 2, ../sass/components/_cvc_destacados.scss */
+.l-region--highlighted img {
+  width: 100%; }
+
+/* line 3, ../sass/components/_cvc_header.scss */
+.l-second-header {
+  position: relative;
+  max-height: 200px;
+  margin-bottom: 10px; }
+  /* line 7, ../sass/components/_cvc_header.scss */
+  .l-second-header .banner-cvc-block {
+    z-index: 1; }
+  /* line 11, ../sass/components/_cvc_header.scss */
+  .l-second-header .logo-cvc-block {
+    position: relative;
+    top: -12em;
+    z-index: 2; }
+
+/* line 1, ../sass/components/_cvc_ultimos_articulos.scss */
+.ultimos-articulos {
+  float: left;
+  position: relative;
+  width: 48%; }
+  /* line 5, ../sass/components/_cvc_ultimos_articulos.scss */
+  .ultimos-articulos .ua-imagen img {
+    margin: 5%;
+    text-align: center;
+    width: 90%; }
+  /* line 10, ../sass/components/_cvc_ultimos_articulos.scss */
+  .ultimos-articulos .ua-resumen {
+    margin: 10px;
+    text-align: justify; }
 
 /* line 25, ../sass/cvc-chile.styles.scss */
 body {

@@ -1,0 +1,16 @@
+
+///LOGO y Banner
+.l-second-header{
+	position: relative;
+	max-height: 200px;
+	margin-bottom: 10px;
+	.banner-cvc-block{
+		z-index: 1;
+	}
+
+	.logo-cvc-block{
+	    position: relative;
+	    top: -12em;
+	    z-index: 2;
+	}
+}
