@@ -1,4 +1,124 @@
 /* No files to import found in abstractions/**\/* */
+/* line 2, ../sass/base/_cvc_encuentro_layout.scss */
+.espacio--cvce {
+  width: 100%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none; }
+
+/* line 6, ../sass/base/_cvc_encuentro_layout.scss */
+.l-header--cvc_encuentro {
+  width: 40.67797%;
+  float: left;
+  margin-right: -100%;
+  margin-left: 0;
+  clear: none; }
+  /* line 9, ../sass/base/_cvc_encuentro_layout.scss */
+  .l-header--cvc_encuentro .l-first-header--cvce {
+    width: 100%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none; }
+    /* line 11, ../sass/base/_cvc_encuentro_layout.scss */
+    .l-header--cvc_encuentro .l-first-header--cvce .l-header--cvce {
+      width: 83.05085%;
+      float: left;
+      margin-right: -100%;
+      margin-left: 8.47458%;
+      clear: none; }
+  /* line 15, ../sass/base/_cvc_encuentro_layout.scss */
+  .l-header--cvc_encuentro .l-second-header--cvce {
+    width: 100%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none; }
+    /* line 18, ../sass/base/_cvc_encuentro_layout.scss */
+    .l-header--cvc_encuentro .l-second-header--cvce .l-navigation--cvce {
+      width: 66.10169%;
+      float: left;
+      margin-right: -100%;
+      margin-left: 16.94915%;
+      clear: none; }
+    /* line 22, ../sass/base/_cvc_encuentro_layout.scss */
+    .l-header--cvc_encuentro .l-second-header--cvce .l-social--cvce {
+      width: 66.10169%;
+      float: left;
+      margin-right: -100%;
+      margin-left: 16.94915%;
+      clear: none; }
+
+/* line 31, ../sass/base/_cvc_encuentro_layout.scss */
+.l-main--cvc_encuentro {
+  margin: 0 10px;
+  width: 57.62712%;
+  float: right;
+  margin-left: 0;
+  margin-right: 0;
+  clear: none; }
+  /* line 36, ../sass/base/_cvc_encuentro_layout.scss */
+  .l-main--cvc_encuentro .l-highlighted-wrapper--cvc_encuentro {
+    margin: 0 10px;
+    width: 100%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none; }
+  /* line 42, ../sass/base/_cvc_encuentro_layout.scss */
+  .l-main--cvc_encuentro .l-nav_cont--cvce {
+    width: 100%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none; }
+  /* line 45, ../sass/base/_cvc_encuentro_layout.scss */
+  .l-main--cvc_encuentro .l-content--cvce {
+    margin: 0 10px;
+    width: 100%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none; }
+  /* line 50, ../sass/base/_cvc_encuentro_layout.scss */
+  .l-main--cvc_encuentro .l-bottom--cvc_encuentro {
+    margin: 0 10px;
+    width: 100%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none; }
+    /* line 53, ../sass/base/_cvc_encuentro_layout.scss */
+    .l-main--cvc_encuentro .l-bottom--cvc_encuentro .l-bottom_first--cvce {
+      width: 32.20339%;
+      float: left;
+      margin-right: -100%;
+      margin-left: 0;
+      clear: none; }
+    /* line 57, ../sass/base/_cvc_encuentro_layout.scss */
+    .l-main--cvc_encuentro .l-bottom--cvc_encuentro .l-bottom_second--cvce {
+      width: 32.20339%;
+      float: left;
+      margin-right: -100%;
+      margin-left: 33.89831%;
+      clear: none; }
+    /* line 61, ../sass/base/_cvc_encuentro_layout.scss */
+    .l-main--cvc_encuentro .l-bottom--cvc_encuentro .l-bottom_third--cvce {
+      width: 32.20339%;
+      float: right;
+      margin-left: 0;
+      margin-right: 0;
+      clear: none; }
+  /* line 66, ../sass/base/_cvc_encuentro_layout.scss */
+  .l-main--cvc_encuentro .l-footer--cvc_encuentro {
+    margin: 0 10px;
+    width: 100%;
+    float: right;
+    margin-left: 0;
+    margin-right: 0;
+    clear: none; }
+
 /* line 2, ../sass/base/_cvc_layout.scss */
 .l-header--cvc {
   width: 100%;
