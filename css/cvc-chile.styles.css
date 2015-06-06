@@ -256,9 +256,10 @@ img, media {
 .block__title {
   font-size: 1.8em;
   font-family: Chewy;
-  line-height: 1.2em; }
+  line-height: 1.2em;
+  font-shadow: 2px 2px #ff0000; }
 
-/* line 11, ../sass/components/_cvc_blocks.scss */
+/* line 12, ../sass/components/_cvc_blocks.scss */
 .front.cvc-friend img {
   width: 100%;
   margin: 0.3em; }
