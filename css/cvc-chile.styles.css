@@ -258,8 +258,11 @@ img, media {
       z-index: 1; }
       /* line 9, ../sass/components/_cvc_destacados.scss */
       .l-region--highlighted .destacado .imagen img {
-        width: 100%; }
-    /* line 13, ../sass/components/_cvc_destacados.scss */
+        width: 100%;
+        border-bottom: 2px solid gray;
+        border-radius: 1em;
+        border-right: 2px solid gray; }
+    /* line 16, ../sass/components/_cvc_destacados.scss */
     .l-region--highlighted .destacado .titulo {
       background: black none repeat scroll 0 0;
       font-family: Pacifico;
@@ -271,7 +274,7 @@ img, media {
       top: -7em;
       width: 40%;
       z-index: 2; }
-      /* line 24, ../sass/components/_cvc_destacados.scss */
+      /* line 27, ../sass/components/_cvc_destacados.scss */
       .l-region--highlighted .destacado .titulo a {
         color: mediumaquamarine;
         text-decoration: none; }
@@ -302,6 +305,19 @@ html {
     position: relative;
     top: -14em;
     z-index: 2; }
+
+/* line 1, ../sass/components/_cvc_main.scss */
+.l-main--cvc {
+  background: white none repeat scroll 0 0;
+  border-bottom: 2px solid gray;
+  border-radius: 5%;
+  border-right: 2px solid gray;
+  clear: none;
+  float: right;
+  margin-bottom: 1em;
+  opacity: 0.9;
+  padding: 2em 1em;
+  width: 100%; }
 
 /* line 1, ../sass/components/_cvc_ultimos_articulos.scss */
 .ultimos-articulos {
