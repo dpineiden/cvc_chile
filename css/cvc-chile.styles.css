@@ -245,12 +245,12 @@
 img, media {
   max-width: 100%; }
 
-/* line 2, ../sass/components/_cvc_blocks.scss */
-.h2.block__title {
+/* line 3, ../sass/components/_cvc_blocks.scss */
+h2 .block__title {
   font-size: 1.8em;
   font-family: Chewy; }
 
-/* line 10, ../sass/components/_cvc_blocks.scss */
+/* line 11, ../sass/components/_cvc_blocks.scss */
 .front.cvc-friend img {
   width: 100%;
   margin: 0.3em; }
