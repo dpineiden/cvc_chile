@@ -1,5 +1,31 @@
 .l-region--highlighted{
-	img{
-		width: 100%;
+	position: relative;
+	margin-bottom: 2em;
+	margin-top: 2em;
+	.destacado{
+		max-height: 28em;
+		.imagen {
+	    	z-index: 1;
+			img{		
+				width: 100%;
+			}
+		}
+		.titulo {
+		    background: black none repeat scroll 0 0;
+		    font-family: Pacifico;
+		    font-size: 3.5em;
+		    height: 6em;
+		    padding: 0.5em;
+		    line-height: 1em;
+		    position: relative;
+		    top: -7em;
+		    width: 40%;
+		    z-index: 2;
+		    a{
+	    	    color: mediumaquamarine;
+	    	    text-decoration: none;
+		    }
+		}
 	}
+
 }

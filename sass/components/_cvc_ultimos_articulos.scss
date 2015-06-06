@@ -2,6 +2,10 @@
     float: left;
     position: relative;
     width: 48%;
+    .ua-titulo{
+    	text-transform: uppercase;
+    	a {text-decoration: none;}
+    }
 	.ua-imagen img {
 	    margin: 5%;
 	    text-align: center;

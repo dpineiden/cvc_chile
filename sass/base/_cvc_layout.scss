@@ -38,23 +38,19 @@
 //Content
 
 .l-main--cvc{
-	margin: 0 10px;
 	@include grid-span(12,1);
 	.l-content
 	{
-		margin: 0 10px;
 		@include grid-span(8,1);
 	}
 	.l-sidebar
 	{
-		margin: 0 10px;
 		@include grid-span(4,9);
 	}
 }
 
 //bottom
 .l-bottom--cvc{
-	margin: 0 10px;
 	@include grid-span(12,1);
 	.l-bottom_first{
 		@include grid-span(4,1);
@@ -73,7 +69,6 @@
 //footer
 
 .l-footer--cvc{
-	margin: 0 10px;
 	@include grid-span(12,1);
 
 }

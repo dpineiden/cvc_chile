@@ -1,3 +1,5 @@
+//Menus navegación y redes sociales
+
 
 ///LOGO y Banner
 .l-second-header{
@@ -6,11 +8,17 @@
 	margin-bottom: 10px;
 	.banner-cvc-block{
 		z-index: 1;
+		img{
+			width: 100%;
+		}
 	}
 
 	.logo-cvc-block{
 	    position: relative;
-	    top: -12em;
+	    top: -14em;
 	    z-index: 2;
 	}
 }
+
+
+//
