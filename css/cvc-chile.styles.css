@@ -190,42 +190,49 @@
   margin-right: 0;
   clear: none; }
   /* line 42, ../sass/base/_cvc_layout.scss */
-  .l-main--cvc .l-content {
-    width: 66.10169%;
-    float: left;
-    margin-right: -100%;
-    margin-left: 0;
-    clear: none; }
-  /* line 46, ../sass/base/_cvc_layout.scss */
-  .l-main--cvc .l-sidebar {
-    width: 32.20339%;
+  .l-main--cvc .l-mean {
+    width: 100%;
     float: right;
     margin-left: 0;
     margin-right: 0;
     clear: none; }
+    /* line 44, ../sass/base/_cvc_layout.scss */
+    .l-main--cvc .l-mean .l-content {
+      width: 66.10169%;
+      float: left;
+      margin-right: -100%;
+      margin-left: 0;
+      clear: none; }
+    /* line 48, ../sass/base/_cvc_layout.scss */
+    .l-main--cvc .l-mean .l-sidebar {
+      width: 32.20339%;
+      float: right;
+      margin-left: 0;
+      margin-right: 0;
+      clear: none; }
 
-/* line 53, ../sass/base/_cvc_layout.scss */
+/* line 55, ../sass/base/_cvc_layout.scss */
 .l-bottom--cvc {
   width: 100%;
   float: right;
   margin-left: 0;
   margin-right: 0;
   clear: none; }
-  /* line 55, ../sass/base/_cvc_layout.scss */
+  /* line 57, ../sass/base/_cvc_layout.scss */
   .l-bottom--cvc .l-bottom_first {
     width: 32.20339%;
     float: left;
     margin-right: -100%;
     margin-left: 0;
     clear: none; }
-  /* line 59, ../sass/base/_cvc_layout.scss */
+  /* line 61, ../sass/base/_cvc_layout.scss */
   .l-bottom--cvc .l-bottom_second {
     width: 32.20339%;
     float: left;
     margin-right: -100%;
     margin-left: 33.89831%;
     clear: none; }
-  /* line 63, ../sass/base/_cvc_layout.scss */
+  /* line 65, ../sass/base/_cvc_layout.scss */
   .l-bottom--cvc .l-bottom_third {
     width: 32.20339%;
     float: right;
@@ -233,7 +240,7 @@
     margin-right: 0;
     clear: none; }
 
-/* line 71, ../sass/base/_cvc_layout.scss */
+/* line 73, ../sass/base/_cvc_layout.scss */
 .l-footer--cvc {
   width: 100%;
   float: right;

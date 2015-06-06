@@ -36,6 +36,7 @@
   <?php endif; ?>
 
   <div class="l-main--cvc l-constrained-content">
+    <div class="l-mean">
     <a id="main-content"></a>
     <?php print render($tabs); ?>
     <?php print $breadcrumb; ?>
@@ -56,6 +57,7 @@
     </div>
     <div class="l-sidebar">
     <?php print render($page['sidebar']); ?>
+    </div>
     </div>
     <div class="l-bottom--cvc">
       <div class="l-bottom_first">
