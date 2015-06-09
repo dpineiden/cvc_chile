@@ -322,19 +322,22 @@ body {
   http://svgeneration.com/generate/Circular-Overlap Vertical?background=ffd014&foreground=f2ff9c&count=2&height=500&opacity=0.283&
   */
   background-repeat: repeat-x; }
+  /* line 14, ../sass/components/_cvc_header.scss */
+  .l-first-header .fix-head {
+    margin: 0 0 0 -10%; }
 
-/* line 17, ../sass/components/_cvc_header.scss */
+/* line 20, ../sass/components/_cvc_header.scss */
 .l-second-header {
   position: relative;
   max-height: 200px;
   margin-bottom: 10px; }
-  /* line 21, ../sass/components/_cvc_header.scss */
+  /* line 24, ../sass/components/_cvc_header.scss */
   .l-second-header .banner-cvc-block {
     z-index: 1; }
-    /* line 23, ../sass/components/_cvc_header.scss */
+    /* line 26, ../sass/components/_cvc_header.scss */
     .l-second-header .banner-cvc-block img {
       width: 100%; }
-  /* line 28, ../sass/components/_cvc_header.scss */
+  /* line 31, ../sass/components/_cvc_header.scss */
   .l-second-header .logo-cvc-block {
     position: relative;
     top: -14em;
@@ -360,7 +363,9 @@ body {
   .block-redes-sociales .img-rs {
     float: left;
     margin: 0 4px 4px;
-    width: 7%; }
+    width: 7%;
+    position: relative;
+    top: 0.3em; }
 
 /* line 1, ../sass/components/_cvc_ultimos_articulos.scss */
 .ultimos-articulos {
