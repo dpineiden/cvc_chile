@@ -357,6 +357,16 @@ body {
   padding: 2em 1em;
   width: 100%; }
 
+/* line 1, ../sass/components/_cvc_mainmenu.scss */
+.sf-main-menu.sf-horizontal {
+  margin: 0.8em; }
+  /* line 3, ../sass/components/_cvc_mainmenu.scss */
+  .sf-main-menu.sf-horizontal .sf-depth-1 {
+    color: palevioletred;
+    font-family: Righteous;
+    margin-left: 0.5em;
+    text-decoration: none; }
+
 /* line 1, ../sass/components/_cvc_redessociales.scss */
 .block-redes-sociales {
   text-align: right; }
