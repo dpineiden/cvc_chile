@@ -8,7 +8,7 @@
         <?php print render($page['social']); ?>
         </div>
     </div>
-    <div class="l-second-header">
+    <div class="l-second-header cvc-body">
         <div class="l-header">
           <?php if ($logo): ?>
             <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" class="site-branding__logo"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" /></a>
@@ -22,7 +22,7 @@
           <?php print render($page['branding']); ?>
         </div>
     </div>
-    <div class="l-third-header">
+    <div class="l-third-header cvc-body">
       <div class="l-nav_cont">
       <?php print render($page['nav_cont']); ?>
       </div>
@@ -30,13 +30,13 @@
   </div>
 
   <?php if (!empty($page['highlighted'])): ?>
-    <div class="l-highlighted-wrapper--cvc">
+    <div class="l-highlighted-wrapper--cvc cvc-body">
       <?php print render($page['highlighted']); ?>
     </div>
   <?php endif; ?>
 
-  <div class="l-main--cvc l-constrained-content">
-    <div class="l-mean">
+  <div class="l-main--cvc l-constrained-content cvc-body">
+    <div class="l-mean cvc-body">
     <a id="main-content"></a>
     <?php print render($tabs); ?>
     <?php print $breadcrumb; ?>
@@ -59,7 +59,7 @@
     <?php print render($page['sidebar']); ?>
     </div>
     </div>
-    <div class="l-bottom--cvc">
+    <div class="l-bottom--cvc cvc-body">
       <div class="l-bottom_first">
       <?php print render($page['bottom_first']); ?>
       </div>
