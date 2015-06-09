@@ -311,6 +311,7 @@ html {
 
 /* line 2, ../sass/components/_cvc_header.scss */
 .l-first-header {
+  height: 3em;
   border-bottom: 3px solid gray;
   margin-left: -10%;
   margin-right: 0;
@@ -324,18 +325,18 @@ html {
   */
   background-repeat: repeat-x; }
 
-/* line 16, ../sass/components/_cvc_header.scss */
+/* line 17, ../sass/components/_cvc_header.scss */
 .l-second-header {
   position: relative;
   max-height: 200px;
   margin-bottom: 10px; }
-  /* line 20, ../sass/components/_cvc_header.scss */
+  /* line 21, ../sass/components/_cvc_header.scss */
   .l-second-header .banner-cvc-block {
     z-index: 1; }
-    /* line 22, ../sass/components/_cvc_header.scss */
+    /* line 23, ../sass/components/_cvc_header.scss */
     .l-second-header .banner-cvc-block img {
       width: 100%; }
-  /* line 27, ../sass/components/_cvc_header.scss */
+  /* line 28, ../sass/components/_cvc_header.scss */
   .l-second-header .logo-cvc-block {
     position: relative;
     top: -14em;
