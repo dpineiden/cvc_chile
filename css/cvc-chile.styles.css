@@ -362,7 +362,7 @@ body {
   margin: 0.8em; }
   /* line 3, ../sass/components/_cvc_mainmenu.scss */
   .sf-main-menu.sf-horizontal .sf-depth-1 {
-    color: palevioletred;
+    color: indigo;
     font-family: Righteous;
     margin-left: 0.5em;
     text-decoration: none; }
