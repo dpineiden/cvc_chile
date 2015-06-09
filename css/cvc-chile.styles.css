@@ -283,17 +283,18 @@ img, media {
         border-right: 2px solid gray; }
     /* line 16, ../sass/components/_cvc_destacados.scss */
     .l-region--highlighted .destacado .titulo {
+      border-radius: 0 10% 10% 0;
       background: black none repeat scroll 0 0;
       font-family: Pacifico;
-      font-size: 3.5em;
+      font-size: 3.0em;
       height: 6em;
       padding: 0.5em;
-      line-height: 1em;
+      line-height: 1.5em;
       position: relative;
       top: -7em;
       width: 40%;
       z-index: 2; }
-      /* line 27, ../sass/components/_cvc_destacados.scss */
+      /* line 28, ../sass/components/_cvc_destacados.scss */
       .l-region--highlighted .destacado .titulo a {
         color: mediumaquamarine;
         text-decoration: none; }
@@ -337,6 +338,15 @@ html {
   opacity: 0.9;
   padding: 2em 1em;
   width: 100%; }
+
+/* line 1, ../sass/components/_cvc_redessociales.scss */
+.block-redes-sociales {
+  text-align: right; }
+  /* line 3, ../sass/components/_cvc_redessociales.scss */
+  .block-redes-sociales .img-rs {
+    float: left;
+    margin: 0 4px 4px;
+    width: 10%; }
 
 /* line 1, ../sass/components/_cvc_ultimos_articulos.scss */
 .ultimos-articulos {
