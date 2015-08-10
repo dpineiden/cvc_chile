@@ -1,4 +1,4 @@
-<div<?php print $attributes; ?>>
+<div class="tpl_cvc" <?php print $attributes; ?>>
   <div class="l-header--cvc" role="banner">
     <div class="l-first-header fix-head">
         <div class="l-navigation">

@@ -1,4 +1,4 @@
-<div<?php print $attributes; ?>>
+<div class="tpl_encuentro" <?php print $attributes; ?>>
   <div class="l-header--cvc_encuentro" role="banner">
     <div class="l-first-header--cvce">
         <div class="l-header--cvce">
