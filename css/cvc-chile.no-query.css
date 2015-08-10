@@ -351,6 +351,9 @@ body {
 /* line 41, ../sass/components/_cvc_header.scss */
 .l-header--cvc_encuentro {
   position: fixed; }
+  /* line 43, ../sass/components/_cvc_header.scss */
+  .l-header--cvc_encuentro .views-field-field-imagen-mapbit {
+    margin-top: 30%; }
 
 /* line 1, ../sass/components/_cvc_main.scss */
 .l-main--cvc {
@@ -371,6 +374,19 @@ body {
   /* line 16, ../sass/components/_cvc_main.scss */
   .l-content--cvce h1 {
     display: none; }
+  /* line 20, ../sass/components/_cvc_main.scss */
+  .l-content--cvce .front-encuentro2015 {
+    font-family: times new roman;
+    font-size: 2em;
+    margin: 1em;
+    padding: 1em;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 1px solid black; }
+    /* line 28, ../sass/components/_cvc_main.scss */
+    .l-content--cvce .front-encuentro2015 a {
+      text-decoration: none;
+      color: white; }
 
 /* line 1, ../sass/components/_cvc_mainmenu.scss */
 .sf-main-menu.sf-horizontal {
@@ -422,5 +438,7 @@ body {
   .search-block-form .form-text {
     padding: 0.4em;
     width: 60%; }
+
+/* No files to import found in libraries/**\/* */
 
 /*# sourceMappingURL=cvc-chile.no-query.css.map */
