@@ -353,7 +353,7 @@ body {
   position: fixed; }
   /* line 43, ../sass/components/_cvc_header.scss */
   .l-header--cvc_encuentro .views-field-field-imagen-mapbit {
-    margin-top: 30%; }
+    margin-top: 15%; }
 
 /* line 1, ../sass/components/_cvc_main.scss */
 .l-main--cvc {
@@ -370,7 +370,7 @@ body {
 
 /* line 14, ../sass/components/_cvc_main.scss */
 .l-content--cvce {
-  margin-top: 30%; }
+  margin-top: 5%; }
   /* line 16, ../sass/components/_cvc_main.scss */
   .l-content--cvce h1 {
     display: none; }
